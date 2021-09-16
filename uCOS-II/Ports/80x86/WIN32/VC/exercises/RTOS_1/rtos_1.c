@@ -265,7 +265,7 @@ void Check(void* data) {
 			}
 				
 		}
-		// check rows (still have problem with row win checking without any idea!!)
+		// check rows
 		for (i = 0; i < 3; i++) {
 			if (board[i][0] == board[i][1] && board[i][0] == board[i][2] && board[i][0] == 'X') {
 				PC_DispStr(35, 2, msg_player_1, DISP_FGND_WHITE + DISP_BGND_RED);
